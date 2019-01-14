@@ -5,8 +5,12 @@ body {
 	direction:rtl;
 }
 
-.google-visualization-table-table {
-	border:1px #000000 solid;	
+.google-visualization-table-table, .google-visualization-table-table th, .google-visualization-table-table td {
+	border:1px #000000 solid; /*outer border*/
+	font-size: 8pt;
+}
+.google-visualization-table-table .gradient { /*header*/
+	padding: 5px;
 }
 
 .awt-searchFilter-input { /*open text field*/
