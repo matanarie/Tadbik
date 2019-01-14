@@ -4,6 +4,19 @@
 body {
 	direction:rtl;
 }
+
 .google-visualization-table-table {
 	border:1px #000000 solid;	
+}
+
+.awt-searchFilter-input { /*open text field*/
+    padding: 1px 10px 1px 8px;
+}
+
+.awt-vis-controls-NumberRangeFilter { /*number range field*/
+	direction: ltr;	
+}
+
+.awt-DateFilter { /*date range field*/
+	direction: ltr;	
 }
