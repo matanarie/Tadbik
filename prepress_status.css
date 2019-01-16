@@ -27,4 +27,6 @@ body {
 
 .at-action-menu-icon .at-action-menu-dropdown { /*more options dropdown menu*/
     left: 0;
+    right: auto;
 }
+
