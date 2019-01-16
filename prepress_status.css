@@ -24,3 +24,7 @@ body {
 .awt-DateFilter { /*date range field*/
 	direction: ltr;	
 }
+
+.at-action-menu-icon .at-action-menu-dropdown { /*more options dropdown menu*/
+    left: 0;
+}
