@@ -12,6 +12,9 @@ body {
 .google-visualization-table-table .gradient { /*header*/
 	padding: 5px;
 }
+.google-visualization-table-div-page { /*Pagination*/
+	direction:ltr;	
+}
 
 .awt-searchFilter-input { /*open text field*/
     padding: 1px 10px 1px 8px;
