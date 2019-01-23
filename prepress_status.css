@@ -18,7 +18,7 @@ body {
 }
 
 .google-visualization-table-div-page { /*Pagination*/
-	display:flex;
+	display:flex !important;
 	flex-direction:row-reverse;
 }
 
