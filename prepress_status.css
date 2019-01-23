@@ -13,13 +13,13 @@ body {
 	padding: 5px;
 }
 
-#pagination { /*Pagination*/
+#pagination>div { /*Pagination*/
 	display: flex;
 	flex-direction: column-reverse;	
 }
 
 .google-visualization-table-div-page { /*Pagination*/
-	direction:ltr;	
+	/*direction:ltr;*/	
 }
 
 .google-visualization-table-div-page .goog-custom-button { /*Pagination*/
