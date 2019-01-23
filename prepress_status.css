@@ -15,7 +15,7 @@ body {
 
 #pagination>div { /*Pagination*/
 	display: flex;
-	flex-direction: column-reverse;	
+	flex-direction: row-reverse;	
 }
 
 .google-visualization-table-div-page { /*Pagination*/
