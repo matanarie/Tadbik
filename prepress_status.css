@@ -3,11 +3,11 @@
 
 .at-filter-panel { /*Flip filters from left to right */
 	display: flex;
-	flex-direction: row-reverse !important;
+	flex-direction:row-reverse !important;
 }
 .google-visualization-table-page-numbers { /*Page Numbers*/
     display: inline-block !important; /*Show Page Numbers*/
-    float: left; /*Shift the page numbers to the left of the arrows
+    float: left; /*Shift the page numbers to the left of the arrows*/
 }
 
 .google-visualization-table-table{ /*Flip table from left to right */
