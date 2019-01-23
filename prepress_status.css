@@ -17,8 +17,9 @@ body {
 	direction:ltr;	
 }
 
-.google-visualization-table-div-page .goog-custom-button { /*Pagination*/
-	/*display:none;*/
+.google-visualization-table-div-page { /*Pagination*/
+	display:flex;
+	flex-direction:row-reverse;
 }
 
 .awt-searchFilter-input { /*open text field*/
