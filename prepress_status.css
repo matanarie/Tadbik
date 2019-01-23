@@ -1,10 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
-#controlersPanel { /*Flip filters from left to right */
+#controlersPanel {/*Flip filters from left to right */
 	display:flex;
 	flex-direction:row-reverse !important;
-}
+	
 .google-visualization-table-page-numbers { /*Page Numbers*/
     display:inline-block !important; /*Show Page Numbers*/
     float: left; /*Shift the page numbers to the left of the arrows*/
