@@ -5,6 +5,15 @@
 	display:flex;
 	flex-direction:row-reverse !important;
 }
+
+
+.awt-searchFilter-input {/*open text field*/
+	padding: 1px 10px 1px 8px;
+}
+
+.at-action-menu{/*Additional Options Menu*/
+	display: none !important;
+}
 	
 .google-visualization-table-page-numbers {/*Page Numbers*/
     display:inline-block !important; /*Show Page Numbers*/
@@ -15,10 +24,7 @@
 	direction:rtl;
 }
 
-.awt-searchFilter-input {/*open text field*/
-	padding: 1px 10px 1px 8px;
+.google-visualization-table-table td, .google-visualization-table-table th {/*Tabel cells*/
+	direction:ltr;	
 }
 
-.at-action-menu{/*Additional Options Menu*/
-	display: none !important;
-}
