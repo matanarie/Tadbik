@@ -1,45 +1,16 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body {
+.at-filter-panel { /*Flip filters from left to right */     display: flex;     flex-direction: row-reverse !important;
+}
+.google-visualization-table-page-numbers { /*Page Numbers*/
+    display: inline-block !important; /*Show Page Numbers*/
+}
+
+.google-visualization-table-table{ /*Flip table from left to right */
 	direction:rtl;
-}
-
-.google-visualization-table-table, .google-visualization-table-table th, .google-visualization-table-table td {
-	font-size: 8pt;
-	border:1px #000000 solid; /*outer border*/
-}
-.google-visualization-table-table .gradient { /*header*/
-	padding: 5px;
-}
-
-#count { /*Pagination*/
-	direction:ltr;	
-}
-
-.google-visualization-table-div-page { /*Pagination*/
-	display:flex !important;
-	flex-direction:row-reverse;
-}
-
-.google-visualization-table-div-page .goog-custom-button-disabled { /*disabled button is Pagination*/
-	opacity: 1;	
 }
 
 .awt-searchFilter-input { /*open text field*/
     padding: 1px 10px 1px 8px;
 }
-
-.awt-vis-controls-NumberRangeFilter { /*number range field*/
-	direction: ltr;	
-}
-
-.awt-DateFilter { /*date range field*/
-	direction: ltr;	
-}
-
-.at-action-menu-icon .at-action-menu-dropdown { /*more options dropdown menu*/
-    left: 0;
-    right: auto;
-}
-
