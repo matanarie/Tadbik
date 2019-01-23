@@ -13,7 +13,7 @@ body {
 	padding: 5px;
 }
 .google-visualization-table-div-page { /*Pagination*/
-	/*direction:ltr;*/	
+	direction:ltr;	
 }
 
 .google-visualization-table-div-page .goog-custom-button { /*Pagination*/
