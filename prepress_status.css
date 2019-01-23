@@ -12,12 +12,18 @@ body {
 .google-visualization-table-table .gradient { /*header*/
 	padding: 5px;
 }
+
+#pagination { /*Pagination*/
+	display: flex;
+	flex-direction: column-reverse;	
+}
+
 .google-visualization-table-div-page { /*Pagination*/
 	direction:ltr;	
 }
 
 .google-visualization-table-div-page .goog-custom-button { /*Pagination*/
-	display:none;	
+	/*display:none;*/
 }
 
 .awt-searchFilter-input { /*open text field*/
