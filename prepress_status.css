@@ -4,6 +4,7 @@
 #controlersPanel {/*Flip filters from left to right */
 	display:flex;
 	flex-direction:row-reverse !important;
+}
 	
 .google-visualization-table-page-numbers { /*Page Numbers*/
     display:inline-block !important; /*Show Page Numbers*/
